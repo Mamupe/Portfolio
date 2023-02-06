@@ -1,0 +1,12 @@
+.navContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;  
+    
+}
+
+.navContainer > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+}
