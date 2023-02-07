@@ -1,12 +1,33 @@
 .navContainer {
     display: flex;
+    flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;  
+    justify-content:center;
+    background-color: #20242C;
+    
     
 }
 
-.navContainer > ul {
+.pestaña {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;  
+    align-items: center;
+    background-color: #20242C;
+    height: 3rem;
+    width: 6rem;
+    justify-content: center;
+    border-left: solid black 2px;
+   
+    color: #9DA4B3;
+    font-family: 'Arial', sans-serif;
 }
+
+.pestaña:hover {
+    color:#9B8725;
+    background-color: #373E4B;
+    font-family: 'Arial', sans-serif;
+}
+ #cont{
+    border-right: solid black 2px;
+ }
+

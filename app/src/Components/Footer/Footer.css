@@ -1,0 +1,27 @@
+.footCont {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    align-content: center;
+    justify-content: space-around;
+    margin-bottom: 0.5rem;
+}
+
+.footCont > p {
+    font-size: medium;
+    font-weight: 100;
+    font-family: 'Cascadia Code', sans-serif;
+    color: #8EC478;
+}
+
+.git {
+    height: 27px;
+}
+
+.linkedin {
+    height: 27px; 
+}
+
+.logo {
+    margin-top: 4px;
+}

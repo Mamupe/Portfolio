@@ -1,0 +1,20 @@
+.homecont{
+    height: 87vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cascadia Code', sans-serif;
+}
+
+.welcome {
+    color: whitesmoke;
+    margin-top: -10rem;
+    margin-bottom: 2rem;
+}
+
+.texthome {
+    max-width: 60vw;
+    color:rgb(223, 221, 221);
+    line-height: 2rem;
+}

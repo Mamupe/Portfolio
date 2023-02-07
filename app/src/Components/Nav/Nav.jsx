@@ -5,22 +5,22 @@ import { NavLink } from 'react-router-dom';
 
 const Nav = () => {
   return (
-    <div className="navContainer">
-      <ul>
-        <NavLink to="/">
-          <li>Home</li>
-        </NavLink>
-        <NavLink to="/about">
-          <li>About</li>
-        </NavLink>
-        <NavLink to="/projects">
-          <li>Projects</li>
-        </NavLink>
-        <NavLink to="/contact">
-          <li>Contact</li>
-        </NavLink>
-      </ul>
-    </div>
+    <nav className="navContainer">
+      <NavLink to="/">
+        <div className="pestaña">Home</div>
+      </NavLink>
+      <NavLink to="/about">
+        <div className="pestaña">About</div>
+      </NavLink>
+      <NavLink to="/projects">
+        <div className="pestaña">Projects</div>
+      </NavLink>
+      <NavLink to="/contact">
+        <div className="pestaña" id="cont">
+          Contact
+        </div>
+      </NavLink>
+    </nav>
   );
 };
 
