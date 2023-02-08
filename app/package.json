@@ -2,7 +2,6 @@
   "name": "app",
   "private": true,
   "version": "0.0.0",
- 
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -12,6 +11,10 @@
     "lint": "npm run lint:format && npm run lint:fix "
   },
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
+    "dotenv": "^16.0.3",
+    "emailjs-com": "^3.2.0",
+    "formik": "^2.2.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.7.0"
@@ -27,6 +30,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.1",
     "eslint-plugin-simple-import-sort": "^9.0.0",
+    "node-sass": "^8.0.0",
     "pre-commit": "^1.2.2",
     "prettier": "^2.8.3",
     "vite": "^4.0.0"

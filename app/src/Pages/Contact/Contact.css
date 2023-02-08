@@ -1,0 +1,63 @@
+.formCont {
+height: 87vh;    
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+justify-items: center;
+font-family: 'Cascadia Code', sans-serif;
+color:rgb(223, 221, 221);
+}
+
+.part1 {
+display: flex;
+flex-direction: column;
+
+
+margin-bottom: 1rem;
+}
+
+
+
+input {
+    margin-bottom: 10px;
+    height: 1.5rem;
+    width: 22rem;
+    border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+}
+
+.part2 > textarea{
+    width: 22rem;
+    height: 10rem;
+    border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;	
+}
+
+.part2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.submit {
+    margin-top: 7px;
+    width: 22rem;
+    cursor: pointer;
+    border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+}
+
+.submit:hover {
+opacity:0.5;
+}
+
+.cf {
+    margin-top: 2rem;
+}
+
