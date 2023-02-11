@@ -45,12 +45,12 @@ const Contact = () => {
           'w4GZ1-cnaqJ-vOrHK',
         );
         form.resetForm();
-        setSuccessResult('Thank you! Your message has been successfully sent');
+        setSuccessResult('Gracias, su mensaje ha sido enviado correctamente');
         setTimeout(() => {
           setSuccessResult('');
         }, 5000);
       } catch (e) {
-        setErrorResult('Something went wrong while sending your message!');
+        setErrorResult('Algo no salió del todo bien');
         setTimeout(() => {
           setErrorResult('');
         }, 5000);
