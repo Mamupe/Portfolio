@@ -10,14 +10,14 @@ const Nav = () => {
         <div className="pestaña">Home</div>
       </NavLink>
       <NavLink to="/about">
-        <div className="pestaña">About</div>
+        <div className="pestaña">Sobre mí</div>
       </NavLink>
       <NavLink to="/projects">
-        <div className="pestaña">Projects</div>
+        <div className="pestaña">Proyectos</div>
       </NavLink>
       <NavLink to="/contact">
         <div className="pestaña" id="cont">
-          Contact
+          Contacto
         </div>
       </NavLink>
     </nav>

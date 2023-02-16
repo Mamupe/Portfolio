@@ -6,33 +6,30 @@ const Projects = () => {
   return (
     <div className="CardsCont">
       <div className="cardCont">
-        <h3>Países del mundo</h3>
+        <h3>Mindker</h3>
         <img
-          src="https://res.cloudinary.com/dghnwllrc/image/upload/v1675955231/projects/countries_rjpr5n.jpg"
+          src="https://res.cloudinary.com/dghnwllrc/image/upload/v1675956560/projects/mindker_sax3eq.jpg"
           alt="imagen del proyecto"
         />
         <p>
-          Es una aplicación simple sobre países del mundo que obtiene la información de
-          los mismos haciendo una petición a una API. Las tecnologías utilizadas son:
-          JavaScript, HTML y CSS.
+          Es una app completa con front y back. Es un juego hecho para el estudio y
+          aprendizaje de diversos temas. Las tecnologías utilizadas son: React, HTML, CSS,
+          Chakra, Node, JavaSript, Express, MongoDB, Cloudinary.
         </p>
         <section className="links">
           <a
             className="linkapp"
-            href="https://1-html-css-js-simple.vercel.app/"
+            href="https://www.linkedin.com/mynetwork/"
             target="blank"
           >
             Ver app
           </a>
-          <a
-            className="linkrepo"
-            href="https://github.com/Mamupe/1.HTML_CSS_JS_Simple/"
-            target="blank"
-          >
+          <a className="linkrepo" href="https://github.com/mindker" target="blank">
             Repositorio
           </a>
         </section>
       </div>
+
       <div className="cardCont">
         <h3>Hub de juegos</h3>
         <img
@@ -129,25 +126,29 @@ const Projects = () => {
         </section>
       </div>
       <div className="cardCont">
-        <h3>Mindker</h3>
+        <h3>Países del mundo</h3>
         <img
-          src="https://res.cloudinary.com/dghnwllrc/image/upload/v1675956560/projects/mindker_sax3eq.jpg"
+          src="https://res.cloudinary.com/dghnwllrc/image/upload/v1675955231/projects/countries_rjpr5n.jpg"
           alt="imagen del proyecto"
         />
         <p>
-          Es una app completa con front y back. Es un juego hecho para el estudio y
-          aprendizaje de diversos temas. Las tecnologías utilizadas son: React, HTML, CSS,
-          Chakra, Node, JavaSript, Express, MongoDB, Cloudinary.
+          Es una aplicación simple sobre países del mundo que obtiene la información de
+          los mismos haciendo una petición a una API. Las tecnologías utilizadas son:
+          JavaScript, HTML y CSS.
         </p>
         <section className="links">
           <a
             className="linkapp"
-            href="https://www.linkedin.com/mynetwork/"
+            href="https://1-html-css-js-simple.vercel.app/"
             target="blank"
           >
             Ver app
           </a>
-          <a className="linkrepo" href="https://github.com/mindker" target="blank">
+          <a
+            className="linkrepo"
+            href="https://github.com/Mamupe/1.HTML_CSS_JS_Simple/"
+            target="blank"
+          >
             Repositorio
           </a>
         </section>

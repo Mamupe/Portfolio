@@ -8,7 +8,7 @@
 }
 
 .welcome {
-    color: whitesmoke;
+    color: #FF9900;;
     margin-top: -10rem;
     margin-bottom: 2rem;
 }
@@ -17,4 +17,8 @@
     max-width: 60vw;
     color:rgb(223, 221, 221);
     line-height: 2rem;
+}
+
+.title {
+    color: #AA5099;
 }

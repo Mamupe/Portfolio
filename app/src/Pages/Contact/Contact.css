@@ -9,6 +9,10 @@ font-family: 'Cascadia Code', sans-serif;
 color:rgb(223, 221, 221);
 }
 
+.contacta{
+color: #FF9900;
+}
+
 .part1 {
 display: flex;
 flex-direction: column;
@@ -45,12 +49,14 @@ input {
 .submit {
     margin-top: 7px;
     width: 22rem;
+    height: 2rem;
     cursor: pointer;
     border:1px solid #000;
 	border-radius:5px;
 	display:block;
 	color:#fff;
 	background-color:#000;
+    font-family: 'Cascadia Code', sans-serif;
 }
 
 .submit:hover {

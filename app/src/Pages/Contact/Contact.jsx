@@ -66,10 +66,10 @@ const Contact = () => {
 
   return (
     <div className="formCont">
-      <h3>¡Contacta conmigo!</h3>
+      <h3 className="contacta">¡Contacta conmigo!</h3>
       <form className="cf" onSubmit={form.handleSubmit}>
         <div className="part1">
-          <label>Nombre:</label>
+          <label htmlFor="nombre">Nombre:</label>
           <input
             className="name"
             value={form.values.name}
@@ -79,7 +79,7 @@ const Contact = () => {
             name="name"
           />
           <FormErrorHandler name="name" />
-          <label>Email:</label>
+          <label htmlFor="email">Email:</label>
           <input
             className="mail"
             value={form.values.email}
@@ -89,7 +89,7 @@ const Contact = () => {
             name="email"
           />
           <FormErrorHandler name="email" />
-          <label>Asunto:</label>
+          <label htmlFor="asunto">Asunto:</label>
           <input
             value={form.values.subject}
             onChange={form.handleChange}
@@ -101,7 +101,7 @@ const Contact = () => {
           <FormErrorHandler name="subject" />
         </div>
         <div className="part2">
-        <label>Mensaje:</label>
+          <label htmlFor="mensaje">Mensaje:</label>
           <textarea
             value={form.values.message}
             onChange={form.handleChange}
