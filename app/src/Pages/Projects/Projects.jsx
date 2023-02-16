@@ -17,11 +17,7 @@ const Projects = () => {
           Chakra, Node, JavaSript, Express, MongoDB, Cloudinary.
         </p>
         <section className="links">
-          <a
-            className="linkapp"
-            href="https://www.linkedin.com/mynetwork/"
-            target="blank"
-          >
+          <a className="linkapp" href="https://github.com/mindker" target="blank">
             Ver app
           </a>
           <a className="linkrepo" href="https://github.com/mindker" target="blank">
